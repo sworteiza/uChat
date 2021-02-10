@@ -1,0 +1,406 @@
+#Wind
+{
+    background: linear-gradient(160deg, #a4ebb2, #e096f9);
+}
+*
+{
+    font-family: Verdana, sans-serif;
+    border: 1px solid rgba(0,0,0,0);
+    color: black;
+}
+
+/*******************Warning************************************************/
+
+#Warn
+{
+    background-color: rgba(255, 255, 255, 0.88);
+}
+
+#OK
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 140px;
+    margin-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: #f7b628;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+}
+#OK:hover{
+    background: #DDA731;
+}
+
+#WarnLab
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 146px;
+}
+
+#ContLab
+{
+    font-size: 16px;
+    margin-top: 19px;
+    margin-left: 53px;
+}
+
+/*******************Profile************************************************/
+
+#EBHB2{
+    margin-bottom: 50px;
+}
+
+#EButt
+{
+    background-image: url("resource/img/cancel.png");
+    margin-right: 20px;
+    margin-top: 20px;
+    outline: none;
+    box-shadow: none;
+    background-size: 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+}
+
+#SearchButt
+{
+    margin-bottom: 30px; 
+    margin-right: 30px; 
+    border-radius: 10px;
+    border: 1px solid #151515;
+    background: rgba(255,255,255,0.5);
+    font-size: 16px;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    color: #151515;
+}
+#SearchButt:hover{
+    background: #E2E2E2;
+}
+
+#Theme1{
+    border-radius: 100%;
+    border: 1px solid #151515;
+    background: linear-gradient(160deg, #a4ebb2, #e096f9);
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+}
+
+#Theme2{
+    border-radius: 100%;
+    border: 1px solid #151515;
+    background: linear-gradient(160deg, #EF6539, #DBB018);
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+}
+
+#Theme3{
+    border-radius: 100%;
+    border: 1px solid #151515;
+    background: linear-gradient(160deg, #5E6A5D, #2C190C);
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+}
+
+#Tbox{
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+#Box{
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    border-radius: 10px;
+    border: 1px solid #151515;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+#SerButton
+{
+    outline: none;
+    box-shadow: none;
+    background-image: url("resource/img/loupe.png");
+    background-size: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#SerEntry
+{
+    outline: none;
+    box-shadow: none;
+    background: rgba(0,0,0,0);
+    border-radius: 0px;
+    font-size: 16px;
+}
+
+/**************ChatWin************************************/
+
+#Sobbes{
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 37px;
+    padding-top: 18px;
+}
+
+#EBHB{
+    background-color:  #a4ebcc;
+    padding-bottom: 20px;
+    border: 1px solid #151515;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+}
+
+#SButt
+{
+    background-image: url("./resource/img/sent.png");
+    background-size: 80%;
+    outline: none;
+    box-shadow: none;
+    border-top: 1px solid #151515;
+    border-right: 1px solid #151515;
+    border-left: 1px solid rgba(0,0,0,0);
+    border-bottom: 1px solid #151515;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+}
+
+#Message {
+    opacity: 0.75;
+    font-size: 16px;
+    background-color: rgba(224, 150, 249, 0.7);
+    outline: none;
+    box-shadow: none;
+    border-top: 1px solid #151515;
+    border-right: 1px solid rgba(0,0,0,0);
+    border-left: 1px solid #151515;
+    border-bottom: 1px solid #151515;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    color: #151515;
+} 
+
+#ScrW
+{
+    background: rgba(0,0,0,0);
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+#DeleteMsg{
+    background: url("resource/img/delete.png");
+    outline: none;
+    box-shadow: none;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    background-size: 60%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+}
+
+#ChangeMsg{
+    background: url("resource/img/pencil.png");
+    outline: none;
+    box-shadow: none;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    background-size: 60%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+}
+
+/**************MainD***********************************************************/
+
+#ScrWin{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,0);
+}
+
+#PB{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#PrButt{
+    margin-left: 35px;
+    padding-right: 20px;
+    background-image: url("resource/img/menu.png");
+    outline: none;
+    box-shadow: none;
+    background-size: cover;
+}
+
+#NameLab{
+    margin-right: 35px;
+    font-size: 36px; 
+    font-weight: 500;
+}
+
+#ChB{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+#ChButt{
+   background: rgba(255, 255, 255, 0.5);
+   margin-left: 15px;
+   border-radius: 10px;
+   border: 1px solid #151515;
+   font-size: 18px;
+   font-weight: 500;
+}
+#ChButt:hover{
+    background: #E2E2E2;
+}
+
+/**************Registration***********************************************************/
+#BoxR
+{
+    margin-top: 0px;
+}
+
+#ChatR
+{
+    font-size: 50px; 
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+#NameR
+{
+    margin-top: 20px;
+    opacity: 0.75;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    font-size: 15px;
+}
+
+#LoginR
+{
+    margin-top: 20px;
+    opacity: 0.75;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    font-size: 15px;
+}
+
+#PassR
+{
+    margin-top: 20px;
+    opacity: 0.75;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    font-size: 15px;
+}
+
+#RepeatR
+{
+    margin-top: 20px;
+    opacity: 0.75;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    font-size: 15px;
+}
+
+#SignR
+{
+    background: rgb(164, 235, 204);
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    font-size: 15px;
+    font-weight: 600;
+}
+#SignR:hover{
+    background: #6BDBBB;
+}
+#ExitR
+{
+    background-image: url("resource/img/cancel.png");
+    outline: none;
+    box-shadow: none;
+    margin-bottom: 70px;
+    margin-left: 370px;
+    margin-top: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+}
+
+/********Sign In*****************************************************************/
+#Chat
+{
+    font-size: 50px; 
+    font-weight: 600;
+    margin-bottom: 110px;
+}
+
+#Entry
+{
+    margin-top: 120px;
+}
+
+#Login
+{
+    margin-top: 20px;
+    opacity: 0.75;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    font-size: 15px;
+}
+
+#Pass
+{
+    margin-top: 20px;
+    opacity: 0.75;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    font-size: 15px;
+}
+
+#Sign
+{
+    background: rgb(164, 235, 204);
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+    font-size: 15px;
+    font-weight: 600;
+}
+#Sign:hover{
+    background: #6BDBBB;
+}
+#Reg
+{
+    background: rgba(224, 150, 249, 0.7);
+    margin-top: 220px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid #151515;
+    box-shadow: 2px 2px 4px 0px rgba(21, 21, 21, 0.25);
+}
+#Reg:hover{
+    background: #BE77D6;
+}
